@@ -17,7 +17,7 @@ def aVeryBigSum(ar):
     sum = 0 #defining the variable named sum
     for i in range(len(ar)): #using range function to step i for each int value
         sum = sum + ar[i] #adding the value of ar at index i to the total sum
-    return sum
+    return sum #I completed this in two commits, adding a comment for the third
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
