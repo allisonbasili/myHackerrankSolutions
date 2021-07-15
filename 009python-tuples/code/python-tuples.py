@@ -8,7 +8,7 @@ if __name__ == '__main__':
     n = int(input())
     integer_list = map(int, input().split())
     
-t = tuple(integer_list)
+t = tuple(integer_list) #creates a tuple out of the integer list
     
-print(hash(t))
+print(hash(t)) # computes hash value and prints
 
