@@ -3,9 +3,12 @@
 # of all the plants with distinct heights in her greenhouse.
 #Complete the average function in the editor below.
 
-## empty promt
+## completed challenge
 
 def average(array):
-    # your code goes here
-
+    return sum(set(array))/len(set(array))
 if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
