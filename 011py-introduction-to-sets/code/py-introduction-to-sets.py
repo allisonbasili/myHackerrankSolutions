@@ -3,7 +3,7 @@
 # of all the plants with distinct heights in her greenhouse.
 #Complete the average function in the editor below.
 
-## completed challenge
+## completed challenge 3rd commit
 
 def average(array):
     return sum(set(array))/len(set(array))
